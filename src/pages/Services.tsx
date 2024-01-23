@@ -1,13 +1,15 @@
-import React from 'react';
-import  OurServices  from '../components/OurServices';
-import Projects from '../components/Projects';
+import React from "react";
+import OurServices from "../components/OurServices";
+import Projects from "../components/Projects";
+import SimpleSlider from "../components/SimpleSlider";
 const Services = () => {
   return (
     <div>
-    <OurServices />  
-    <Projects />
+      <SimpleSlider />
+      <OurServices />
+      <Projects />
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
