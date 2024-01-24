@@ -113,12 +113,12 @@ const Footer = () => {
                     Home
                   </Link>
                   <Link
-                    to="/"
+                    to="/about"
                     className="block mt-2 text-sm text-white font-normal hover:underline">
                     About us
                   </Link>
                   <Link
-                    to="/"
+                    to="/projects"
                     className="block mt-2 text-sm text-white font-normal hover:underline">
                     Projects
                   </Link>
