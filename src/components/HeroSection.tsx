@@ -24,11 +24,11 @@ const HeroSection = () => {
   };
 
   const imageVariants = {
-    hidden: { opacity: 0, scale: 0.8, x: 50 },
-    visible: { opacity: 1, scale: 1, x: 0 },
+    hidden: { opacity: 0, scale: 0.8, y: 50 },
+    visible: { opacity: 1, scale: 1, y: 0 },
   };
 
-  const transition = { duration: 1.5 }; // Adjust the duration here
+  const transition = { duration: 1.5 }; 
 
   return (
     <div className="bg-white">
