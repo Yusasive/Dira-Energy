@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        
         "about-bg": "url('/src/assets/AboutImage.svg')",
         "hero-bg": "url('/src/assets/hero-image.png')",
       },
@@ -18,9 +17,11 @@ module.exports = {
         orangeText: "#FE5716",
         cardH1: "#10367A",
         cardP: "#454C5D",
-        grayBg: "#F0ECEC", 
+        grayBg: "#F0ECEC",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
